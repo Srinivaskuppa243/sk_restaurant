@@ -1,0 +1,28 @@
+.container{
+    height: 65px;
+    width: 1500px;
+    display: grid;
+    background-color:black;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4,1fr);
+}
+.bg{
+    height: 70px;
+    width: 100px;
+}
+.container2{
+height: 800px;
+display: grid;
+}
+.pg{
+   height:350;
+   width:1400;
+}
+.hg{
+   height: 350px;
+    width: 350px;
+    grid-template-columns: auto auto auto auto ;
+}
+
+
+

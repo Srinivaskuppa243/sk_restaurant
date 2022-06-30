@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Private events | Srinivas Restaurant</title>
+    <link rel="stylesheet" href="css1/style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        .maindiv{
+            width:70%;
+            height:450px;
+            position:absolute;
+            transform: translate(-50%,-40%);
+            left: 50%;
+            top:50%;
+            background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudHN8ZW58MHx8MHx8&w=1000&q=80');
+            background-size: 100%,100%;
+            background-repeat: no-repeat;
+            animation: slider 15s infinite linear
+        }
+        @keyframes slider {
+            0%{
+                background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudHN8ZW58MHx8MHx8&w=1000&q=80');
+                background-size: 100%,100%;
+            }
+           35%{
+            background-image: url('https://media.istockphoto.com/photos/people-clinking-glasses-with-wine-over-table-with-italian-pizza-picture-id1192270298?k=20&m=1192270298&s=612x612&w=0&h=BwPEOpj7AS-_t3bIaIPbvXtSOb_kzRNXD9BM-q3RSLQ=');
+            background-size: 100%,100%;
+        } 
+           75%{
+            background-image: url('https://media.istockphoto.com/photos/malai-kofta-curry-picture-id1288040533?k=20&m=1288040533&s=612x612&w=0&h=_i6MOgpYTLXT0lRd3_1cYEWCg9_0YV7msXHBEDkSQrc=');
+            background-size: 100%,100%;
+        }
+        }
+
+    </style>
+</head>
+<body align="center">
+<header>
+<nav>
+<div class="logo"><h1 class="">Srinivas Restaurant</h1></div>
+<div class="menu">
+    <a href="file:///Users/kphaniramamohan/Desktop/html/RESTAURANT%201.HTML#">Home</a>
+    <a href="file:///Users/kphaniramamohan/Desktop/html/menu1.html">Menu</a>
+    <a href="file:///Users/kphaniramamohan/Desktop/html/Private%20events.html">Private events</a>
+    <a href="file:///Users/kphaniramamohan/Desktop/html/reservations.html">Reservations</a>
+    <a href="file:///Users/kphaniramamohan/Desktop/html/contact1.html">Contact</a>
+</div>
+</nav>
+<main>
+<section>
+    <h1 style="color: black;"><font size ="+7">Welcome to private events section</font></h1>
+    <div  class="maindiv">
+    </div>
+    
+</section>
+</main><br><br>
+</header>
+<h2 style="color:white;">We have moved up and are ready to host your next private event with us.From birthday events to any sort of event you can get contact to us by just filling the below form.</h2><br><br>
+<form style="color:white ;"><label for="email">Enter your email:</label> <input type="email" id="email" name="email"></form><br><br>
+<form style="color:white ;"><label for="text">First name:</label><input type="text" id="text" name="text"></form><br><br>
+<form style="color:white ;"><label for="text">Last name: </label><input type="text" id="text" name="text"></form><br><br>
+<form style="color:white ;"><label for="number">Phone number: </label><input type="number" id="Quantity" name="Quantity"  min="1" max="999999999"></form><br><br>
+<form style="color:white ;"><label for="date">Event date: </label><input type="date" id="date" name="date"></form><br><br>
+<form style="color:white ;"><label for="time"> Start time: </label><input type="time" id="time" name="time"></form><br><br>
+<form style="color:white ;"><label for="time">End time: </label><input type="time" id="time" name="time"></form><br><br>
+<form style="color:white ;"><label for="Text">Type of event: </label><input type="text" id="text" name="text"></form><br><br>
+<form style="color:white ;"><label for="Number">Number of people: </label><input type="number" id="number" name="number"></form><br><br>
+<form style="color:white ;"><p><label for="Private events info.">Additional information: </label><textarea  id="Private events info." name="Private events info." rows="4" columns="50"></textarea></p>
+<input type="Submit" value="submit">
+</form>
+</body>
+</html>
